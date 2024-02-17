@@ -4,6 +4,9 @@ import { Navigate, useRoutes } from "react-router-dom";
 import HomePage from "../pages/Home";
 import Events from "../pages/Events";
 import Places from "../pages/PlaceDetails";
+import GridListingsWithLeftSidebar from "../pages/Search";
+import ShowListingsWithMap from "../pages/PlaceDetailsWithMap";
+import FourZeroFour from "../pages/404/404";
 
 // ----------------------------------------------------------------------
 export const authRoutes = {
@@ -29,6 +32,15 @@ export default function Router() {
     {
       path: "place-details",
       element: <Places />,
+    },
+    { path: "listing-details", element: <Places /> },
+    {
+      path: "search",
+      element: <GridListingsWithLeftSidebar />,
+    },
+    {
+      path: "show-with-map",
+      element: <ShowListingsWithMap />,
     },
     // {
     //   path: "dashboard",
@@ -61,7 +73,7 @@ export default function Router() {
     // },
     {
       path: "*",
-      element: <Navigate to="/404" replace />,
+      element: <FourZeroFour />,
     },
   ]);
 
