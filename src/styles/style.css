@@ -62,7 +62,7 @@ Default CSS
 :root {
   --fontFamily: "Work Sans", sans-serif;
   --mainColor: #f5c400;
-  --mainColor2: #ffdf61;
+  --mainColor2: #f5c400;
   --optionalColor: #666666;
   --whiteColor: #ffffff;
   --blackColor: #221638;
@@ -411,7 +411,7 @@ Navbar Area CSS
   left: 0;
   z-index: 99;
   opacity: 0;
-  width: 400px;
+  width: 440px;
   display: block;
   border-radius: 0;
   padding: 10px 0;
@@ -615,6 +615,18 @@ Navbar Area CSS
   opacity: 1;
   visibility: visible;
   margin-top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  /* height: 4em; */
+}
+
+.miran-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu li {
+  width: 220px;
+}
+
+.miran-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu a {
+  padding: 8px 15px;
 }
 
 .miran-nav .navbar .navbar-search-box {
@@ -753,6 +765,13 @@ Navbar Area CSS
   color: var(--mainColor);
 }
 
+.navbar-style-two .miran-nav .navbar .navbar-nav .nav-item .dropdown-menu .icon-span-class {
+  display: inline-flex;
+  align-items: stretch;
+
+}
+
+
 .navbar-style-two .miran-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: var(--blackColor);
 }
@@ -851,6 +870,11 @@ Navbar Area CSS
   color: var(--whiteColor);
 }
 
+.is-sticky .miran-nav .navbar .navbar-search-box label {
+  color: var(--blackColor);
+}
+
+
 .navbar-style-two .miran-nav .navbar .navbar-search-box .input-search {
   border: 1px solid #ffdf61;
   padding-top: 11px;
@@ -874,6 +898,14 @@ Navbar Area CSS
   color: transparent;
 }
 
+.is-sticky .miran-nav .navbar .input-search {
+  color: var(--blackColor) !important;
+}
+
+.is-sticky .miran-nav .navbar .input-search::placeholder {
+  color: var(--blackColor) !important;
+}
+
 .navbar-style-two .miran-nav .navbar .others-option .option-item span {
   color: var(--whiteColor);
 }
@@ -883,12 +915,25 @@ Navbar Area CSS
   transition: var(--transition);
 }
 
+.is-sticky .miran-nav .navbar .others-option .option-item span {
+  color: var(--blackColor);
+}
+
+.is-sticky .miran-nav .navbar .others-option .option-item span i {
+  color: var(--blackColor);
+  transition: var(--transition);
+}
+
 .navbar-style-two .miran-nav .navbar .others-option .option-item span:hover {
   color: var(--mainColor2);
 }
 
 .navbar-style-two .miran-nav .navbar .others-option .option-item span:hover i {
   color: var(--mainColor2);
+}
+
+.is-sticky .navbar-area .navbar-style-two i {
+  color: #000 !important;
 }
 
 .navbar-style-two .miran-nav .navbar .others-option .option-item .default-btn {
@@ -903,11 +948,15 @@ Navbar Area CSS
 }
 
 .navbar-style-two.is-sticky {
-  background-color: #001840 !important;
+  background-color: var(--whiteColor) !important;
 }
 
 .navbar-style-two .others-option-for-responsive .dot-menu .inner .circle {
   background-color: var(--whiteColor);
+}
+
+.navbar-style-two.is-sticky a {
+  color: var(--blackColor) !important;
 }
 
 .others-option-for-responsive {
@@ -7740,7 +7789,7 @@ Page Title Area CSS
 =================================================*/
 .page-title-area {
   padding-bottom: 130px;
-  padding-top: 250px;
+  padding-top: 160px;
   background-color: var(--blackColor);
   background-position: center center;
   background-size: cover;

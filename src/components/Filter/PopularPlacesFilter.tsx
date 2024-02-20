@@ -14,7 +14,7 @@ const PopularPlacesFilter = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="What are you looking for?"
+                  placeholder="Search..."
                 />
               </div>
             </div>
