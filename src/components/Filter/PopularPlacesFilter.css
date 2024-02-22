@@ -13,3 +13,24 @@
     right: 0;
     text-align: center;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-places {
+        top: 80px;
+    }
+
+    .react-multi-carousel-list img {
+        height: 400px !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .popular-places {
+        top: 90px;
+    }
+
+    .react-multi-carousel-list img {
+        height: 500px !important;
+    }
+}

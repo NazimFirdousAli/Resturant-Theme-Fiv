@@ -1084,11 +1084,6 @@
     margin-top: 15px;
   }
 
-  .page-title-bg {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   .page-title-bg h2 {
     font-size: 25px;
   }
@@ -3813,10 +3808,7 @@
     margin-top: 15px;
   }
 
-  .page-title-bg {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
+  .page-title-bg {}
 
   .page-title-bg h2 {
     font-size: 35px;
