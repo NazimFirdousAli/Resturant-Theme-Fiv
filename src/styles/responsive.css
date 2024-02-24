@@ -3288,7 +3288,7 @@
 
   .main-banner-content {
     max-width: 95%;
-    top: 30%;
+    top: 30% !important;
   }
 
   .main-banner-content h1 {
@@ -4333,7 +4333,7 @@
 
   .main-banner-content {
     max-width: 90%;
-    top: 25%;
+    top: 25% !important;
   }
 
   .banner-content .banner-two-heading {
@@ -4939,5 +4939,12 @@
     margin-left: -55px;
   }
 }
+
+@media only screen and (min-width: 2045px) {
+  .main-banner-content {
+    top: 20% !important;
+  }
+}
+
 
 /*# sourceMappingURL=responsive.css.map */

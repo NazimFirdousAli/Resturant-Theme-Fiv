@@ -35,12 +35,16 @@ const Blog = ({ bgColor }: { bgColor?: string }) => {
                           </li>
                         </ul>
                         <h3>
-                          <a href="/single-blog-1">
+                          <a style={{ color: "black" }} href="/single-blog-1">
                             10 Types of Social Proof and What Makes Them
                             Effective
                           </a>
                         </h3>
-                        <a href="/single-blog-1" className="link-btn">
+                        <a
+                          href="/single-blog-1"
+                          style={{ color: "black" }}
+                          className="link-btn"
+                        >
                           <i className="flaticon-right-arrow"></i>
                         </a>
                       </div>
@@ -70,7 +74,7 @@ const Blog = ({ bgColor }: { bgColor?: string }) => {
                           </li>
                         </ul>
                         <h3>
-                          <a href="/single-blog-1">
+                          <a href="/single-blog-1" style={{ color: "black" }}>
                             Tech Products That Make It Easier to Stay Home
                           </a>
                         </h3>
