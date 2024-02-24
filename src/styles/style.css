@@ -61,7 +61,7 @@ Default CSS
 =================================================*/
 :root {
   --fontFamily: "Work Sans", sans-serif;
-  --primaryColor: blue;
+  --primaryColor: #102a71;
   --mainColor: #f5c400;
   --mainColor2: #f5c400;
   --optionalColor: #666666;
@@ -4750,7 +4750,7 @@ Listings Widget Sidebar CSS
 .listings-widget-area .widget_categories ul li span {
   display: inline-block;
   cursor: pointer;
-  color: var(--mainColor);
+  color: var(--primaryColor);
   transition: var(--transition);
   font-weight: 600;
 }
@@ -4874,7 +4874,7 @@ Listings Widget Sidebar CSS
 .listings-widget-area .widget_features ul li span {
   display: inline-block;
   cursor: pointer;
-  color: var(--mainColor);
+  color: var(--primaryColor);
   transition: var(--transition);
   font-weight: 600;
 }
@@ -4998,7 +4998,7 @@ Listings Widget Sidebar CSS
 .listings-widget-area .widget_distance ul li span {
   display: inline-block;
   cursor: pointer;
-  color: var(--mainColor);
+  color: var(--primaryColor);
   transition: var(--transition);
   font-weight: 600;
 }
@@ -7877,7 +7877,7 @@ Page Title Area CSS
 
 .page-title-bg form {
   background-color: var(--whiteColor);
-  box-shadow: 5px 5px #ffdf61;
+  box-shadow: 5px 5px var(--primaryColor);
   border-radius: 5px;
   max-width: 900px;
   z-index: 2;
@@ -8049,7 +8049,7 @@ Page Title Area CSS
 .page-title-bg form .submit-btn button {
   display: block;
   width: 100%;
-  background-color: var(--mainColor);
+  background-color: var(--primaryColor);
   border: none;
   color: var(--whiteColor);
   font-size: var(--fontSize);
@@ -9857,7 +9857,7 @@ Pagination CSS
 .pagination-area .page-numbers:hover,
 .pagination-area .page-numbers.current {
   color: var(--whiteColor);
-  background-color: var(--mainColor);
+  background-color: var(--primaryColor);
 }
 
 .pagination-area .page-numbers i {
@@ -9866,8 +9866,8 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers.prev {
-  box-shadow: -2px 3px var(--mainColor);
-  border-color: var(--mainColor);
+  box-shadow: -2px 3px var(--primaryColor);
+  border-color: var(--primaryColor);
 }
 
 .pagination-area .page-numbers.prev:hover {
@@ -9876,8 +9876,8 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers.next {
-  box-shadow: 2px 3px var(--mainColor);
-  border-color: var(--mainColor);
+  box-shadow: 2px 3px var(--primaryColor);
+  border-color: var(--primaryColor);
 }
 
 .pagination-area .page-numbers.next:hover {

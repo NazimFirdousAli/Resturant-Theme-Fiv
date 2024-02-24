@@ -5,7 +5,7 @@ import PlaceDetails from "./PlaceDetails";
 function Places() {
   return (
     <>
-      <Navbar positionCss="relative" backgroundColor="#001840" />
+      <Navbar positionCss="relative" backgroundColor="#102a71" />
       <PlaceDetails />
       <Footer />
     </>

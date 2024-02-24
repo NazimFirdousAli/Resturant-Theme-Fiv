@@ -7,7 +7,7 @@ import Category from "../Home/Category";
 const GridListingsWithLeftSidebar = () => {
   return (
     <>
-      <Navbar positionCss="relative" backgroundColor="#001840" />
+      <Navbar positionCss="relative" backgroundColor="#102a71" />
 
       <PopularPlacesFilter />
       <Category />

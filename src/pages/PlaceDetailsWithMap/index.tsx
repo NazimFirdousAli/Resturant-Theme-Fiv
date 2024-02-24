@@ -5,7 +5,7 @@ import ListingsWithMap from "./ListingsWithMap";
 function ShowListingsWithMap() {
   return (
     <>
-      <Navbar positionCss="relative" backgroundColor="#001840" />
+      <Navbar positionCss="relative" backgroundColor="#102a71" />
       <ListingsWithMap />
       <Footer />
     </>

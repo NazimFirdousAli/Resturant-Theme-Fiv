@@ -6,7 +6,7 @@ import PageBanner from "./PageBanner";
 function Events() {
   return (
     <>
-      <Navbar positionCss="relative" backgroundColor="#001840" />
+      <Navbar positionCss="relative" backgroundColor="#102a71" />
       <PageBanner pageTitle="Events" pageName="Events" />
       <EventDetails />
       <Footer />
